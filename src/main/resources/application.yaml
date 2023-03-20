@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${PG_HOSTNAME}/${PG_DB_NAME}?currentSchema=${PG_DB_SCHEMA}&stringtype=unspecified
+    username: ${PG_LOGIN}
+    password: ${PG_PASSWORD}
+gitlab:
+  token: glpat-SyMXt5vjzotAxh4gfzi9
+  url: https://gitlab.com
+  project-id: 123123
+
+
